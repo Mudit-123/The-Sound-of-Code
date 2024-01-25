@@ -1,7 +1,5 @@
 # Music_Generation_Using_LSTM
 
-The AI model generates various melodies [samples](https://soundcloud.com/rishit-toteja/sets/ai-generated-piano-melodies) was trained on famous Irish Folk Songs (Jigs), Christmas Carols, and renowned pianist John Playford.
-
 The Dataset was obtained from the Nottingham Music Database, which contains over 1000 Folk Tunes stored in a special text format. Using NMD2ABC, a program written by Jay Glanville and some Perl scripts, the bulk of this database has been converted to ABC notation.
 
 The ABC Notation of each song was originally in text format. However, to feed the data to our neural network, we need to convert the textual data to a numerical format.
